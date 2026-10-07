@@ -78,22 +78,36 @@ Download the VLM model from [vikhyat/moondream](https://github.com/vikhyat/moond
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Demo Workflow)
 
-### 1. Environment Setup
+Based on the demonstrated on-device execution on the Raspberry Pi 3 Model B:
+
+### 1. Environment & Directory Setup
+Open a terminal on the Raspberry Pi Desktop and activate the Python virtual environment:
 ```bash
-# Setup and activate virtual environment
-python3 -m venv tpvlm
-source tpvlm/bin/activate
+# Activate virtual environment
+source activate tpvlm
 
-# Install dependencies
+# Navigate to the VLM experimentation directory
+cd tpvlm
+
+# (Optional) Install dependencies if running for the first time
 pip install -r requirements.txt
 ```
 
-### 2. Run Inference
+### 2. Verify Captured Frame
+Ensure the camera snapshot (`camimage.jpg`) has been captured and placed inside the working directory.
+
+### 3. Run Inference
+Execute the Moondream VLM script to query the captured image:
 ```bash
-# Execute VLM query script
 python vlm.py
+```
+
+### 4. Expected Output
+The script loads the INT8 quantized model (`moondream-0_5b-int8.mf`) and prints the recognized scene description:
+```text
+Answer: The objects in the image are a can of tomato juice, a bottle of water, and a bottle of soda.
 ```
 
 ---
