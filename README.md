@@ -18,8 +18,9 @@ Implementing Vision-Language Model (Moondream VLM) into a Mobile Robot. This pro
 
 ## 🎬 Demo & Results
 
-<!-- If you converted the video to demo.gif in the assets/ folder, keep this line. Or drag-and-drop the mp4 file directly here in GitHub web editor -->
-![Demo](assets/demo.gif)
+[![Watch the Demo](https://img.youtube.com/vi/TWx1p8HYpFw/hqdefault.jpg)](https://youtu.be/TWx1p8HYpFw)
+
+*(Click the image above to watch the full demonstration on YouTube)*
 
 * **Test Scenario**: Real-time object recognition on a desktop setting using an onboard camera.
 * **Prompt**: `"what is the objects in the image"`
@@ -47,14 +48,14 @@ Implementing Vision-Language Model (Moondream VLM) into a Mobile Robot. This pro
 ### Scenario 1: VLM Running inside Raspberry Pi 3 Model B
 The VLM runs locally inside the Raspberry Pi 3 Model B Python virtual environment (`tpvlm`). The generated caption text is published to the base station via ROS.
 
-![Scenario 1](assets/Scenario%201.png)
+![Scenario 1](assets/TPFINAL-Scenario-1.png)
 
 ---
 
 ### Scenario 2: Mobile Robot send image to base station and VLM on base station
 The mobile robot captures images and publishes them over the ROS network. The heavier VLM inference is handled externally by the laptop/PC base station.
 
-![Scenario 2](assets/Scenario%202.png)
+![Scenario 2](assets/TPFINAL-Scenario-2.png)
 
 ---
 
@@ -65,8 +66,7 @@ Download the VLM model from [vikhyat/moondream](https://github.com/vikhyat/moond
 ```text
 ├── assets/
 │   ├── Scenario 1.png
-│   ├── Scenario 2.png
-│   └── demo.gif
+│   └── Scenario 2.png
 ├── base_station/
 │   ├── Image_talker_listener/   # ROS package for base station in laptop or PC
 │   └── MR-TP-FIX/               # Python environment setup and requirements
