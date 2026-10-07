@@ -1,4 +1,4 @@
-# Mobile-Robot-VLM
+# Mobile-Robots-Project
 
 [![ROS](https://img.shields.io/badge/ROS-Noetic%20%2F%20Melodic-orange.svg)](https://www.ros.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
