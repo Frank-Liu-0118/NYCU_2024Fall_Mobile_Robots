@@ -38,7 +38,7 @@ Implementing Vision-Language Model (Moondream VLM) into a Mobile Robot. This pro
 | **Microcontroller** | Arduino Uno | Motor driving and low-level chassis control |
 | **SBC (Edge Compute)** | Raspberry Pi 3 Model B | Edge computing node (ARM Cortex-A53, 1GB RAM) |
 | **Camera** | Raspberry Pi Camera Module V2 | Real-time image capture (`camimage.jpg`) |
-| **VLM Model** | [Moondream 0.5B] | INT8 quantized model (`moondream-0_5b-int8.mf`) |
+| **VLM Model** | Moondream 0.5B | INT8 quantized model (`moondream-0_5b-int8.mf`) |
 | **Middleware** | ROS (Robot Operating System) | Inter-device topic communication |
 
 ---
