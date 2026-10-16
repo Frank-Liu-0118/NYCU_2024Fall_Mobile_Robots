@@ -12,8 +12,6 @@
 ## 📌 Overview
 Implementing Vision-Language Model (Moondream VLM) into a Mobile Robot. This project investigates the feasibility of running lightweight multi-modal models on resource-constrained embedded systems and compares edge inference with base-station offloading via ROS.
 
-* **Collaborators**: [Frank Liu](https://github.com/Frank-Liu-0118), [@jychpr](https://github.com/jychpr)
-
 ---
 
 ## 🎬 Demo & Results
